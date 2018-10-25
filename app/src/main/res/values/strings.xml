@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">data storage</string>
+
+    <string name="text_view">NOTES</string>
+    <string name="write_editText">write</string>
+    <string name="bt_write">write</string>
+    <string name="bt_delete">delete</string>
+    <string name="bt_read">read</string>
+    <string name="bt_edit">edit</string>
+
 </resources>
