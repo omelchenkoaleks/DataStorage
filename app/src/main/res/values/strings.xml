@@ -7,5 +7,6 @@
     <string name="bt_delete">delete</string>
     <string name="bt_read">read</string>
     <string name="bt_edit">edit</string>
+    <string name="menu_open">menu</string>
 
 </resources>
