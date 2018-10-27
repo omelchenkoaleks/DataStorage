@@ -189,28 +189,29 @@ public class MainActivity extends AppCompatActivity {
 //        }
     }
 
+    // метод отвечает за появление меню в активности
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        int id = item.getItemId();
-//        switch (id) {
-//            case R.id.menu_cache:
-//                startActivity(new Intent(this, CacheActivity.class));
-//                return true;
-//            case R.id.menu_external_public:
-//                startActivity(new Intent(this, ExternalPublicActivity.class));
-//                return true;
-//            case R.id.menu_external_private:
-//                startActivity(new Intent(this, ExternalPrimateActivity.class));
-//                return true;
-//                default:
-//                    return super.onOptionsItemSelected(item);
-//        }
-//        return super.onOptionsItemSelected(item);
-//    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        switch (id) {
+            case R.id.cache_activity:
+                startActivity(new Intent(this, CacheActivity.class));
+                return true;
+            case R.id.external_public_activity:
+                startActivity(new Intent(this, ExternalPublicActivity.class));
+                return true;
+            case R.id.external_private_activity:
+                startActivity(new Intent(this, ExternalPrimateActivity.class));
+                return true;
+                default:
+                    return super.onOptionsItemSelected(item);
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

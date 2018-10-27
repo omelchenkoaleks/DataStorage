@@ -7,6 +7,10 @@
     <string name="bt_delete">delete</string>
     <string name="bt_read">read</string>
     <string name="bt_edit">edit</string>
-    <string name="menu_open">menu</string>
+
+    <string name="menu_activity">menu Activity</string>
+    <string name="cache_activity">CacheActivity</string>
+    <string name="externalPrivateActivity">ExternalPrivateActivity</string>
+    <string name="externalPublicActivity">ExternalPublicActivity</string>
 
 </resources>

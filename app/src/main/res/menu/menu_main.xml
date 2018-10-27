@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
 
     <!--<item-->
-        <!--android:title="@string/menu_open"-->
-        <!--android:icon="@drawable/baseline_more_vert_white_24"-->
-        <!--android:orderInCategory="1"-->
-        <!--app:showAsAction="ifRoom"/>-->
+        <!--android:id="@+id/menu_activity"-->
+        <!--android:title="@string/menu_activity"-->
+        <!--android:orderInCategory="100"-->
+        <!--app:showAsAction="never"/>-->
+
+    <item
+        android:id="@+id/cache_activity"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/cache_activity"/>
+
+    <item
+        android:id="@+id/external_private_activity"
+        android:orderInCategory="100"
+        android:title="@string/externalPrivateActivity"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/external_public_activity"
+        android:title="@string/externalPublicActivity"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
 
 </menu>
