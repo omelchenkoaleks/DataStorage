@@ -207,11 +207,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, ExternalPublicActivity.class));
                 return true;
             case R.id.external_private_activity:
-                startActivity(new Intent(this, ExternalPrimateActivity.class));
+                startActivity(new Intent(this, ExternalPrivateActivity.class));
                 return true;
+
                 default:
                     return super.onOptionsItemSelected(item);
         }
-        return super.onOptionsItemSelected(item);
     }
 }

@@ -19,7 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CacheActivity"></activity>
+        <activity android:name=".CacheActivity" />
+        <activity android:name=".ExternalPublicActivity" />
+        <activity android:name=".ExternalPrivateActivity"></activity>
     </application>
 
 </manifest>
